@@ -1,0 +1,1056 @@
+{
+  "tipos_de_incidencia": {
+    "tipo_00": {
+      "nombre": "ERROR Delta Facturas",
+      "descripcion": "Agrupa 849 incidencias que comparten características relacionadas con: error, delta, facturas.",
+      "num_incidencias": 849,
+      "palabras_clave": [
+        "error",
+        "delta",
+        "facturas",
+        "factura",
+        "cups",
+        "2025",
+        "atlas",
+        "pro",
+        "xatlas",
+        "atr",
+        "cliente",
+        "permite",
+        "sfo",
+        "atc",
+        "anular"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026409964",
+          "resumen": "[SX P]Solapes MAYO 2025",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "INC000014850908",
+          "resumen": "[PPM1041284] Los T105 se quedan en incidencia",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "WO0000026410161",
+          "resumen": "ERROR AL ANULAR DESMONTAJE EN CUPS ES0222120069007964VW",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_01": {
+      "nombre": "FAIL Excessive Long",
+      "descripcion": "Agrupa 122 incidencias que comparten características relacionadas con: fail, excessive, long.",
+      "num_incidencias": 122,
+      "palabras_clave": [
+        "fail",
+        "excessive",
+        "long",
+        "running",
+        "decmd040p",
+        "deled100p",
+        "pro",
+        "com",
+        "ocpro",
+        "prodelta",
+        "delta",
+        "oraclevcn",
+        "detfd251p",
+        "cyclic",
+        "detfd250p"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014850519",
+          "resumen": "Excessive DECMD040P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014850479",
+          "resumen": "Long running  DECTD100P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014850485",
+          "resumen": "Excessive DECMD040P",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_02": {
+      "nombre": "ATLAS Error Oferta",
+      "descripcion": "Agrupa 636 incidencias que comparten características relacionadas con: atlas, error, oferta.",
+      "num_incidencias": 636,
+      "palabras_clave": [
+        "atlas",
+        "error",
+        "oferta",
+        "cups",
+        "permite",
+        "delta",
+        "cliente",
+        "contrato",
+        "solicitud",
+        "suministro",
+        "cambio",
+        "2025",
+        "incidencia",
+        "alta",
+        "anular"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026410122",
+          "resumen": "[ATLAS]unidad familiar bono social (COSPVB0072) con huecos en sus fechas: 20/02/2025 - 28/02/2025",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026410123",
+          "resumen": "[X]CONTRATO ANULADO",
+          "tipo_ticket": "CONSULTA"
+        },
+        {
+          "id": "WO0000026410125",
+          "resumen": "[X]CONTRATACION ANULADA",
+          "tipo_ticket": "CONSULTA"
+        }
+      ]
+    },
+    "tipo_03": {
+      "nombre": "RENOVACIONES Recuento Contrato",
+      "descripcion": "Agrupa 40 incidencias que comparten características relacionadas con: renovaciones, recuento, contrato.",
+      "num_incidencias": 40,
+      "palabras_clave": [
+        "renovaciones",
+        "recuento",
+        "contrato",
+        "informadas",
+        "nuevo",
+        "cuentas",
+        "bono",
+        "social",
+        "informe",
+        "vigencias",
+        "solicitud",
+        "definidas",
+        "mal",
+        "tipdet0074",
+        "conceptos"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026410219",
+          "resumen": "Recuento cuentas contrato informadas en el nuevo RD",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026416999",
+          "resumen": "Informe renovaciones bono social",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026420418",
+          "resumen": "Recuento cuentas contrato informadas en el nuevo RD",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_04": {
+      "nombre": "SOLICITUD Apartadas Regularizadoras",
+      "descripcion": "Agrupa 51 incidencias que comparten características relacionadas con: solicitud, apartadas, regularizadoras.",
+      "num_incidencias": 51,
+      "palabras_clave": [
+        "solicitud",
+        "apartadas",
+        "regularizadoras",
+        "electricidad"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026413333",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026415677",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026417750",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_05": {
+      "nombre": "FAIL Pro Delta",
+      "descripcion": "Agrupa 60 incidencias que comparten características relacionadas con: fail, pro, delta.",
+      "num_incidencias": 60,
+      "palabras_clave": [
+        "fail",
+        "pro",
+        "delta",
+        "prodelta",
+        "ocpro",
+        "oraclevcn",
+        "com"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014872491",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014873301",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014873760",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_06": {
+      "nombre": "CORREO Atlas Cliente",
+      "descripcion": "Agrupa 62 incidencias que comparten características relacionadas con: correo, atlas, cliente.",
+      "num_incidencias": 62,
+      "palabras_clave": [
+        "correo",
+        "atlas",
+        "cliente",
+        "baja",
+        "cambio",
+        "mail",
+        "modificacion",
+        "modificar",
+        "error",
+        "dar",
+        "electronico",
+        "datos",
+        "permite",
+        "actualizacion",
+        "modificaion"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA",
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014856797",
+          "resumen": "[X]No permite actualizar mail",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014869172",
+          "resumen": "No permite cambiar mail",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "WO0000026454388",
+          "resumen": "[ATC 11/07/2025] No permite modificar el correo electrónico",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_07": {
+      "nombre": "CAMBIO Titular Xatlas",
+      "descripcion": "Agrupa 119 incidencias que comparten características relacionadas con: cambio, titular, xatlas.",
+      "num_incidencias": 119,
+      "palabras_clave": [
+        "cambio",
+        "titular",
+        "xatlas",
+        "titularidad",
+        "sin",
+        "error",
+        "subrogacion",
+        "realizar",
+        "imposibilidad",
+        "intenta",
+        "atlas",
+        "posible",
+        "datos",
+        "aparece",
+        "atc"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA",
+        "PETICION",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014852894",
+          "resumen": "No es posible realizar cambio de titular",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014855443",
+          "resumen": "Cambio de titular",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014855585",
+          "resumen": "Se intenta realizar un cambio de titularidad con subrogacion a DNI ficticio, se diligencian todos...",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_08": {
+      "nombre": "CREAR Puesto Trabajo",
+      "descripcion": "Agrupa 40 incidencias que comparten características relacionadas con: crear, puesto, trabajo.",
+      "num_incidencias": 40,
+      "palabras_clave": [
+        "crear",
+        "puesto",
+        "trabajo"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026410935",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026411006",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026410955",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_09": {
+      "nombre": "ERROR Aparato Alta",
+      "descripcion": "Agrupa 346 incidencias que comparten características relacionadas con: error, aparato, alta.",
+      "num_incidencias": 346,
+      "palabras_clave": [
+        "error",
+        "aparato",
+        "alta",
+        "atlas",
+        "baja",
+        "lectura",
+        "permite",
+        "bajas",
+        "anular",
+        "montaje",
+        "2025",
+        "cups",
+        "desmontaje",
+        "lecturas",
+        "sfo"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026411609",
+          "resumen": "no permite ingresar baja",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026411621",
+          "resumen": "NO PERMITE ANULAR DESMONTAJE",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026413028",
+          "resumen": "cups ES0237020000175200CV error 1_7_1 - PCS no existe",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_10": {
+      "nombre": "LOGS Factura Simulada",
+      "descripcion": "Agrupa 23 incidencias que comparten características relacionadas con: logs, factura, simulada.",
+      "num_incidencias": 23,
+      "palabras_clave": [
+        "logs",
+        "factura",
+        "simulada"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026413197",
+          "resumen": "Logs de emisión - Factura no simulada",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026416315",
+          "resumen": "Logs de emisión - Factura no simulada",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026417719",
+          "resumen": "Logs de emisión - Factura no simulada",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_11": {
+      "nombre": "LOG Atlas Impresion",
+      "descripcion": "Agrupa 43 incidencias que comparten características relacionadas con: log, atlas, impresion.",
+      "num_incidencias": 43,
+      "palabras_clave": [
+        "log",
+        "atlas",
+        "impresion",
+        "ora",
+        "01427",
+        "row",
+        "one",
+        "than",
+        "returns",
+        "subquery",
+        "more",
+        "single",
+        "logs",
+        "error",
+        "genera"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026417901",
+          "resumen": "[ATLAS]log de impresión",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026419532",
+          "resumen": "[ATLAS]log de impresión",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026422712",
+          "resumen": "[ATLAS]Log impresion",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_12": {
+      "nombre": "ATLAS Email Eliminar",
+      "descripcion": "Agrupa 146 incidencias que comparten características relacionadas con: atlas, email, eliminar.",
+      "num_incidencias": 146,
+      "palabras_clave": [
+        "atlas",
+        "email",
+        "eliminar",
+        "correo",
+        "cliente",
+        "contrato",
+        "cospvb0023",
+        "concreto",
+        "dato",
+        "tipdet0072",
+        "definido",
+        "correctamente",
+        "nif",
+        "cambio",
+        "2025"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026410917",
+          "resumen": "[ATLAS]error CYV",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026411614",
+          "resumen": "[ATLAS]Cancelar SR R16-0002469270",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026417223",
+          "resumen": "[ATLAS]MODIFICACION DE DATOS",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_13": {
+      "nombre": "FAIL Cyclic Ciclico",
+      "descripcion": "Agrupa 92 incidencias que comparten características relacionadas con: fail, cyclic, ciclico.",
+      "num_incidencias": 92,
+      "palabras_clave": [
+        "fail",
+        "cyclic",
+        "ciclico",
+        "detfm930p",
+        "decod156p",
+        "depfdefe80",
+        "detf0162p",
+        "depfdefe38",
+        "com",
+        "oraclevcn",
+        "env",
+        "ocpro",
+        "desfre016p",
+        "delta",
+        "dplogfen01"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014850491",
+          "resumen": "Fail DECOD156P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014853852",
+          "resumen": "Fail D520DEFRE38-0930",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014853986",
+          "resumen": "BULK JOB FAIL  IN DELTA  MINORISTAS",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_14": {
+      "nombre": "DATOS Atlas Titular",
+      "descripcion": "Agrupa 31 incidencias que comparten características relacionadas con: datos, atlas, titular.",
+      "num_incidencias": 31,
+      "palabras_clave": [
+        "datos",
+        "atlas",
+        "titular",
+        "actualizar",
+        "cambio",
+        "sin",
+        "permite",
+        "mail"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014855035",
+          "resumen": "[ATLAS]Cambio de titular sin subrogación",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014857584",
+          "resumen": "[ATLAS]No permite actualizar mail",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014869792",
+          "resumen": "Actualización de datos",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_15": {
+      "nombre": "CLIENTE Atlas Contratos",
+      "descripcion": "Agrupa 78 incidencias que comparten características relacionadas con: cliente, atlas, contratos.",
+      "num_incidencias": 78,
+      "palabras_clave": [
+        "cliente",
+        "atlas",
+        "contratos",
+        "baja",
+        "visualiza",
+        "imposibilidad",
+        "clientes",
+        "cambio",
+        "mail",
+        "datos",
+        "area",
+        "lanzar",
+        "ficha",
+        "error",
+        "impiden"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014860212",
+          "resumen": "No visualiza contratos AC",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014862790",
+          "resumen": "[xATLAS] No visualiza contratos en su AC",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014870359",
+          "resumen": "acceder al área de clientes",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_16": {
+      "nombre": "ERROR Calcular Cups",
+      "descripcion": "Agrupa 183 incidencias que comparten características relacionadas con: error, calcular, cups.",
+      "num_incidencias": 183,
+      "palabras_clave": [
+        "error",
+        "calcular",
+        "cups",
+        "atlas",
+        "2025",
+        "log",
+        "sfo",
+        "calculo",
+        "atc",
+        "java",
+        "periodo",
+        "permite",
+        "concepto",
+        "logs",
+        "rev"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026413018",
+          "resumen": "[ATLAS]Error OL 30/04/2025 CUPS ES0221901000024563BP",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026413370",
+          "resumen": "No permite calcular",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026415388",
+          "resumen": "Error al calcular el concepto 'CONCEP8380-IMPUESTO ESPECIAL HIDROCARBUROS",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_17": {
+      "nombre": "MODIFICAR Fechas Xatlas",
+      "descripcion": "Agrupa 42 incidencias que comparten características relacionadas con: modificar, fechas, xatlas.",
+      "num_incidencias": 42,
+      "palabras_clave": [
+        "modificar",
+        "fechas",
+        "xatlas",
+        "cups",
+        "es0217010042671119kd"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026410404",
+          "resumen": "Modificar fechas de las LO",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026425299",
+          "resumen": "REGULARIZACIÓN CUPS ES0217010042671119KD",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026426365",
+          "resumen": "[xATLAS] Modificar fechas de las LO",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_18": {
+      "nombre": "GAS Plantillas Subir",
+      "descripcion": "Agrupa 117 incidencias que comparten características relacionadas con: gas, plantillas, subir.",
+      "num_incidencias": 117,
+      "palabras_clave": [
+        "gas",
+        "plantillas",
+        "subir",
+        "delta",
+        "may",
+        "paralelo",
+        "esp",
+        "atlas",
+        "planificada",
+        "lectura",
+        "atrs",
+        "atr",
+        "obtener",
+        "fecha",
+        "elec"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026411053",
+          "resumen": "ATRS GAS_ELE ESP",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026411379",
+          "resumen": "Subir plantillas GAS PT a paralelo DELTYA MAY",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026412375",
+          "resumen": "PLANTILLA",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_19": {
+      "nombre": "LISTADO Informe Clientes",
+      "descripcion": "Agrupa 187 incidencias que comparten características relacionadas con: listado, informe, clientes.",
+      "num_incidencias": 187,
+      "palabras_clave": [
+        "listado",
+        "informe",
+        "clientes",
+        "2025",
+        "extraccion",
+        "cliente",
+        "bloqueo",
+        "facturas",
+        "solicitud",
+        "cortable",
+        "marca",
+        "tengan",
+        "vulnerables",
+        "cuenta",
+        "cuentas"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "CONSULTA",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026409924",
+          "resumen": "Extraccion de Agrupadores GNCOM",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026409932",
+          "resumen": "Facturación por Vencimiento Histórico_v1",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026409978",
+          "resumen": "[X]EXTRACCION TRANSITORIOS POR CNAE",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_20": {
+      "nombre": "FAIL Long Running",
+      "descripcion": "Agrupa 68 incidencias que comparten características relacionadas con: fail, long, running.",
+      "num_incidencias": 68,
+      "palabras_clave": [
+        "fail",
+        "long",
+        "running",
+        "d5led123p",
+        "cyclic",
+        "ciclico",
+        "d5vtd980p",
+        "d5atd095p",
+        "excessive",
+        "d5tfd272p",
+        "d5tfd260p",
+        "com",
+        "oraclevcn",
+        "ocpro",
+        "deltasmile"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014850561",
+          "resumen": "Fail D5VTD980P-2",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014853979",
+          "resumen": "Fail D5VTD980P-2",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014853982",
+          "resumen": "Fail D5CBD161P",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ]
+    },
+    "tipo_21": {
+      "nombre": "CUPS Modificar Xatlas",
+      "descripcion": "Agrupa 104 incidencias que comparten características relacionadas con: cups, modificar, xatlas.",
+      "num_incidencias": 104,
+      "palabras_clave": [
+        "cups",
+        "modificar",
+        "xatlas",
+        "atlas",
+        "suministro",
+        "final",
+        "desvincular",
+        "sector",
+        "error",
+        "cambio",
+        "piso",
+        "direccion",
+        "es0031408359291005gp0f",
+        "vinculado",
+        "es0031405476226004la0f"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026412977",
+          "resumen": "[ATLAS]Modificar dirección CUPS",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026414856",
+          "resumen": "[ATLAS]Modificar dirección CUPS",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026415497",
+          "resumen": "[xATLAS] ES0022000008519365EZ1P",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_22": {
+      "nombre": "BAJA Atlas Fecha",
+      "descripcion": "Agrupa 265 incidencias que comparten características relacionadas con: baja, atlas, fecha.",
+      "num_incidencias": 265,
+      "palabras_clave": [
+        "baja",
+        "atlas",
+        "fecha",
+        "2025",
+        "cups",
+        "error",
+        "atc",
+        "cuida",
+        "modificar",
+        "alta",
+        "lectura",
+        "permite",
+        "pasar",
+        "anular",
+        "bajas"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026411564",
+          "resumen": "Anulación baja 01/05/2025 del suministro ES0218030025270761ZR",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026411616",
+          "resumen": "[ATC 04/06/2025] Lectura BAJA - CUPS ES0022000005540996HF1P",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026412983",
+          "resumen": "[ATLAS]Error baja cuida",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_23": {
+      "nombre": "ATLAS Error Lecturas",
+      "descripcion": "Agrupa 198 incidencias que comparten características relacionadas con: atlas, error, lecturas.",
+      "num_incidencias": 198,
+      "palabras_clave": [
+        "atlas",
+        "error",
+        "lecturas",
+        "ver",
+        "curva",
+        "cierre",
+        "coinciden",
+        "aparato",
+        "sin",
+        "anular",
+        "lectura",
+        "consumo",
+        "relevante",
+        "cups",
+        "mover"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "CONSULTA",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026411157",
+          "resumen": "[ATLAS] Eliminar montaje aparato",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026412022",
+          "resumen": "error al calcular",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026412837",
+          "resumen": "[ATLAS] Ver aparato",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    },
+    "tipo_24": {
+      "nombre": "CUPS Regularizar Caudal",
+      "descripcion": "Agrupa 41 incidencias que comparten características relacionadas con: cups, regularizar, caudal.",
+      "num_incidencias": 41,
+      "palabras_clave": [
+        "cups",
+        "regularizar",
+        "caudal",
+        "error",
+        "permite",
+        "gestionar",
+        "rechazo",
+        "xatlas",
+        "es0217010132244809ps",
+        "rechazos",
+        "es0234152001453211yn",
+        "es0217010238917402cb",
+        "es0022000008480386yc1p",
+        "es0221080005390742pj",
+        "gesitonar"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026416057",
+          "resumen": "[xATLAS] Regularizar CUPS por error de caudal",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026417487",
+          "resumen": "Regulariza cups por error de caudal ES0217010201896725BL",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026429164",
+          "resumen": "Regularizar cups por error de caudal",
+          "tipo_ticket": "PETICION"
+        }
+      ]
+    }
+  },
+  "metricas_modelo": {
+    "silhouette_score": 0.08518115629761652,
+    "model_accuracy": 0.9074778200253485,
+    "model_cv_score": 0.9074778200253485,
+    "num_clusters": 25,
+    "coverage": 1.0
+  },
+  "fecha_analisis": "2025-10-23T12:25:57.011383",
+  "cluster_info": {
+    "num_clusters": 25,
+    "silhouette_score": 0.08518115629761652,
+    "cluster_sizes": {
+      "0": 849,
+      "2": 636,
+      "9": 346,
+      "22": 265,
+      "23": 198,
+      "19": 187,
+      "16": 183,
+      "12": 146,
+      "1": 122,
+      "7": 119,
+      "18": 117,
+      "21": 104,
+      "13": 92,
+      "15": 78,
+      "20": 68,
+      "6": 62,
+      "5": 60,
+      "4": 51,
+      "11": 43,
+      "17": 42,
+      "24": 41,
+      "8": 40,
+      "3": 40,
+      "14": 31,
+      "10": 23
+    }
+  }
+}
