@@ -1,0 +1,269 @@
+================================================================================
+📊 ANÁLISIS INTEGRAL DE INCIDENCIAS NATURGY DELTA
+================================================================================
+📅 Fecha de análisis: 2025-10-24 14:11:25
+🎯 Total de categorías identificadas: 17
+🤖 Precisión del modelo: 0.926
+📊 Silhouette Score: 0.087
+
+🏷️  CATEGORÍAS IDENTIFICADAS (ordenadas por volumen)
+================================================================================
+
+📋 ERRORES SISTEMA CRITICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 1089
+⚡ Criticidad: Alta
+📝 Descripción: Categoría 'Errores Sistema Critico Frecuentes' que agrupa 1089 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.
+🔑 Palabras clave: atlas, error, delta, cups, 2025
+🔍 Patrones: Afectación múltiple o masiva, Requiere atención prioritaria, Procesos automatizados
+📂 Tipos principales: PETICION, INCIDENCIA, CONSULTA
+
+📋 Ejemplos representativos:
+  1. [WO0000026488615] ES0022000007198428KJ1P
+  2. [WO0000026474104] [R1]PROCESAR MENSAJERIA B1 04 CLIENTE VITAL CUPS ES0022000004549220EZ1P- URGENTE
+  3. [WO0000026420457] Error genérico del cálculo OL 18/09/2017 ES0022000007788141QY1P
+
+============================================================
+
+📋 FACTURACIÓN CRITICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 264
+⚡ Criticidad: Alta
+📝 Descripción: Categoría 'Facturación Critico Frecuentes' que agrupa 264 incidencias relacionadas con procesos de facturación, cobros y aspectos económicos.
+🔑 Palabras clave: error, factura, facturas, 2025, atc
+🔍 Patrones: Requiere atención prioritaria
+📂 Tipos principales: INCIDENCIA, PETICION, CONSULTA
+
+📋 Ejemplos representativos:
+  1. [INC000014874955] [PPM 1043612]La factura no sale bien.
+  2. [INC000014900407] [PR]Error log sobre CAE
+  3. [WO0000026504229] LOG DE IMPRESION
+
+============================================================
+
+📋 ERRORES SISTEMA AUTOMATICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 196
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Errores Sistema Automatico Frecuentes' que agrupa 196 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.
+🔑 Palabras clave: error, aparato, atlas, montaje, desmontaje
+📂 Tipos principales: PETICION, CONSULTA, INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [WO0000026509623] [ATLAS] - Se solicita eliminar aparato para el 19/06/25
+  2. [WO0000026531831] No permite ingresar lecturas despues de 31/01/2025 incluyendo baja
+  3. [WO0000026532374] error al calcular
+
+============================================================
+
+📋 GESTIÓN CONTRATOS AUTOMATICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 184
+⚡ Criticidad: Alta
+📝 Descripción: Categoría 'Gestión Contratos Automatico Frecuentes' que agrupa 184 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.
+🔑 Palabras clave: error, alta, baja, lectura, bajas
+🔍 Patrones: Requiere atención prioritaria
+📂 Tipos principales: PETICION, INCIDENCIA, CONSULTA
+
+📋 Ejemplos representativos:
+  1. [WO0000026472355] [BAJAS] - Se solicita anulación de baja para el 28/05/25
+  2. [INC000014884451] Solicitud Rechazada
+  3. [WO0000026440400] Error alta de lectura Manual
+
+============================================================
+
+📋 GESTIÓN DATOS AUTOMATICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 118
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Gestión Datos Automatico Frecuentes' que agrupa 118 incidencias relacionadas con gestión, actualización y procesamiento de datos.
+🔑 Palabras clave: fail, excessive, long, running, decmd040p
+📂 Tipos principales: INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [INC000014859499] Excessive DECOE140P
+  2. [INC000014896560] Fail DELED100P
+  3. [INC000014879955] Fail DECOD160P #oc-pro-ba-delta-01.prodelta.ocpro.oraclevcn.com
+
+============================================================
+
+📋 GESTIÓN CONTRATOS CRITICO FRECUENTES
+------------------------------------------------------------
+📊 Incidencias: 101
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Gestión Contratos Critico Frecuentes' que agrupa 101 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.
+🔑 Palabras clave: cups, modificar, xatlas, atlas, suministro
+📂 Tipos principales: PETICION, INCIDENCIA, CONSULTA
+
+📋 Ejemplos representativos:
+  1. [WO0000026474661] CAMBIO UBICACIÓN CUPS ES0031405476226004LA0F VINCULADO A C XIFRE 0023 Piso:01 (08026) BARCELONA
+  2. [WO0000026433230] [X][xATLAS] Modificar dirección CUPS
+  3. [WO0000026428563] [xATLAS] Desasociar CUPS ES0031408664036020QZ1P
+
+============================================================
+
+📋 GESTIÓN CONTRATOS MASIVO
+------------------------------------------------------------
+📊 Incidencias: 95
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Gestión Contratos Masivo' que agrupa 95 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.
+🔑 Palabras clave: atlas, correo, datos, cliente, baja
+📂 Tipos principales: INCIDENCIA, PETICION
+
+📋 Ejemplos representativos:
+  1. [INC000014898139] [ATLAS]Actualización de datos
+  2. [INC000014881463] cambio de correo
+  3. [INC000014899839] baja al cliente en OV
+
+============================================================
+
+📋 GESTIÓN DATOS MASIVO
+------------------------------------------------------------
+📊 Incidencias: 75
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Gestión Datos Masivo' que agrupa 75 incidencias relacionadas con gestión, actualización y procesamiento de datos.
+🔑 Palabras clave: fail, cyclic, ciclico, decod156p, depfdefe80
+📂 Tipos principales: INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [INC000014874518] Fail ZOMCPFENF9
+  2. [INC000014893291] Fail D5TFD253P-1_FTPF #badeltasmi4.deltasmile.ocpro.oraclevcn.com
+  3. [INC000014866803] [CERRAR] Excessive DECOD156P
+
+============================================================
+
+📋 PROCESOS BATCH AUTOMATICO
+------------------------------------------------------------
+📊 Incidencias: 68
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+🔑 Palabras clave: fail, long, d5led123p, running, cyclic
+📂 Tipos principales: INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [INC000014853979] Fail D5VTD980P-2
+  2. [INC000014895067] Fail D5COD310P
+  3. [INC000014877998] Fail D5CTD251P
+
+============================================================
+
+📋 ERRORES SISTEMA AUTOMATICO
+------------------------------------------------------------
+📊 Incidencias: 62
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Errores Sistema Automatico' que agrupa 62 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.
+🔑 Palabras clave: error, calcular, variante, proceso, agrupadores
+🔍 Patrones: Procesos automatizados
+📂 Tipos principales: PETICION, INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [WO0000026460916] [REV] error al calcular
+  2. [WO0000026445162] [SFO P] error al calcular
+  3. [WO0000026453219] error al calcular
+
+============================================================
+
+📋 GESTIÓN DATOS AUTOMATICO
+------------------------------------------------------------
+📊 Incidencias: 59
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Gestión Datos Automatico' que agrupa 59 incidencias relacionadas con gestión, actualización y procesamiento de datos.
+🔑 Palabras clave: fail, pro, delta, prodelta, ocpro
+📂 Tipos principales: INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [INC000014895051] Fail DELED255P_FTP
+  2. [INC000014886285] Fail DELED255P_FTP
+  3. [INC000014886651] Fail DELED255P_FTP
+
+============================================================
+
+📋 GESTIÓN DATOS
+------------------------------------------------------------
+📊 Incidencias: 50
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Gestión Datos' que agrupa 50 incidencias relacionadas con gestión, actualización y procesamiento de datos.
+🔑 Palabras clave: solicitud, apartadas, regularizadoras, electricidad
+📂 Tipos principales: PETICION
+
+📋 Ejemplos representativos:
+  1. [WO0000026521726] Solicitud WA 2 apartadas regularizadoras electricidad
+  2. [WO0000026427220] Solicitud WA 2 apartadas regularizadoras electricidad
+  3. [WO0000026486387] Solicitud WA 2 apartadas regularizadoras electricidad
+
+============================================================
+
+📋 PROCESOS BATCH MASIVO
+------------------------------------------------------------
+📊 Incidencias: 44
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Procesos Batch Masivo' que agrupa 44 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+🔑 Palabras clave: pro, fail, ended, not, ctm
+📂 Tipos principales: INCIDENCIA
+
+📋 Ejemplos representativos:
+  1. [INC000014861972] Fail DETF0162P-7-ENV
+  2. [INC000014861956] Fail DETFM930P-4
+  3. [INC000014866303] Ended Not OK 'DECOD157P' #CTM-PRO:54cpl#gni_oc-pro-ba-delta-01
+
+============================================================
+
+📋 FACTURACIÓN
+------------------------------------------------------------
+📊 Incidencias: 43
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Facturación' que agrupa 43 incidencias relacionadas con procesos de facturación, cobros y aspectos económicos.
+🔑 Palabras clave: log, atlas, impresion, ora, 01427
+📂 Tipos principales: PETICION
+
+📋 Ejemplos representativos:
+  1. [WO0000026419532] [ATLAS]log de impresión
+  2. [WO0000026459265] [ATLAS]LOG DE IMPRESION ORA-01427
+  3. [WO0000026486193] [ATLAS]LOG DE IMPRESION
+
+============================================================
+
+📋 GESTIÓN CONTRATOS
+------------------------------------------------------------
+📊 Incidencias: 42
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Gestión Contratos' que agrupa 42 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.
+🔑 Palabras clave: modificar, fechas, xatlas, cups, es0217010042671119kd
+📂 Tipos principales: PETICION
+
+📋 Ejemplos representativos:
+  1. [WO0000026426365] [xATLAS] Modificar fechas de las LO
+  2. [WO0000026497113] [xATLAS] Modificar fechas de las LO
+  3. [WO0000026492999] [xATLAS] Modificar fechas de las LO
+
+============================================================
+
+📋 ERRORES SISTEMA
+------------------------------------------------------------
+📊 Incidencias: 40
+⚡ Criticidad: Media
+📝 Descripción: Categoría 'Errores Sistema' que agrupa 40 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.
+🔑 Palabras clave: cups, regularizar, caudal, error, permite
+📂 Tipos principales: PETICION
+
+📋 Ejemplos representativos:
+  1. [WO0000026452897] REGULARIZAR CUPS  POR ERROR DE CAUDAL
+  2. [WO0000026512510] REGULARIZAR CUPS POR ERROR DE CAUDAL ES0217010208123523DG
+  3. [WO0000026417487] Regulariza cups por error de caudal ES0217010201896725BL
+
+============================================================
+
+📋 INFRAESTRUCTURA
+------------------------------------------------------------
+📊 Incidencias: 38
+⚡ Criticidad: Baja
+📝 Descripción: Categoría 'Infraestructura' que agrupa 38 incidencias relacionadas con problemas de infraestructura, servicios y conectividad del sistema.
+🔑 Palabras clave: crear, puesto, trabajo
+📂 Tipos principales: PETICION
+
+📋 Ejemplos representativos:
+  1. [WO0000026418582] Crear puesto de trabajo
+  2. [WO0000026457542] Crear puesto de trabajo
+  3. [WO0000026418578] Crear puesto de trabajo
+
+============================================================
