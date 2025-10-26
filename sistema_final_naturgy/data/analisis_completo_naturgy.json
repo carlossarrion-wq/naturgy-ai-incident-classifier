@@ -1,0 +1,712 @@
+{
+  "metadata": {
+    "fecha_analisis": "2025-10-24T14:11:25.815338",
+    "total_categorias": 17,
+    "metodo_clustering": "KMeans",
+    "metodo_clasificacion": "random_forest"
+  },
+  "tipos_de_incidencia": {
+    "gestión_contratos_masivo": {
+      "nombre": "Gestión Contratos Masivo",
+      "descripcion": "Categoría 'Gestión Contratos Masivo' que agrupa 95 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.",
+      "num_incidencias": 95,
+      "palabras_clave": [
+        "atlas",
+        "correo",
+        "datos",
+        "cliente",
+        "baja",
+        "cambio",
+        "mail",
+        "modificar",
+        "error",
+        "modificacion"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA",
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014898139",
+          "resumen": "[ATLAS]Actualización de datos",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014881463",
+          "resumen": "cambio de correo",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014899839",
+          "resumen": "baja al cliente en OV",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Media"
+    },
+    "gestión_contratos_critico_frecuentes": {
+      "nombre": "Gestión Contratos Critico Frecuentes",
+      "descripcion": "Categoría 'Gestión Contratos Critico Frecuentes' que agrupa 101 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.",
+      "num_incidencias": 101,
+      "palabras_clave": [
+        "cups",
+        "modificar",
+        "xatlas",
+        "atlas",
+        "suministro",
+        "final",
+        "cambio",
+        "desvincular",
+        "error",
+        "sector"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026474661",
+          "resumen": "CAMBIO UBICACIÓN CUPS ES0031405476226004LA0F VINCULADO A C XIFRE 0023 Piso:01 (08026) BARCELONA",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026433230",
+          "resumen": "[X][xATLAS] Modificar dirección CUPS",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026428563",
+          "resumen": "[xATLAS] Desasociar CUPS ES0031408664036020QZ1P",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Media"
+    },
+    "gestión_datos_automatico_frecuentes": {
+      "nombre": "Gestión Datos Automatico Frecuentes",
+      "descripcion": "Categoría 'Gestión Datos Automatico Frecuentes' que agrupa 118 incidencias relacionadas con gestión, actualización y procesamiento de datos.",
+      "num_incidencias": 118,
+      "palabras_clave": [
+        "fail",
+        "excessive",
+        "long",
+        "running",
+        "decmd040p",
+        "deled100p",
+        "detfd251p",
+        "pro",
+        "delta",
+        "prodelta"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014859499",
+          "resumen": "Excessive DECOE140P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014896560",
+          "resumen": "Fail DELED100P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014879955",
+          "resumen": "Fail DECOD160P #oc-pro-ba-delta-01.prodelta.ocpro.oraclevcn.com",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "gestión_contratos": {
+      "nombre": "Gestión Contratos",
+      "descripcion": "Categoría 'Gestión Contratos' que agrupa 42 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.",
+      "num_incidencias": 42,
+      "palabras_clave": [
+        "modificar",
+        "fechas",
+        "xatlas",
+        "cups",
+        "es0217010042671119kd"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026426365",
+          "resumen": "[xATLAS] Modificar fechas de las LO",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026497113",
+          "resumen": "[xATLAS] Modificar fechas de las LO",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026492999",
+          "resumen": "[xATLAS] Modificar fechas de las LO",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "facturación_critico_frecuentes": {
+      "nombre": "Facturación Critico Frecuentes",
+      "descripcion": "Categoría 'Facturación Critico Frecuentes' que agrupa 264 incidencias relacionadas con procesos de facturación, cobros y aspectos económicos.",
+      "num_incidencias": 264,
+      "palabras_clave": [
+        "error",
+        "factura",
+        "facturas",
+        "2025",
+        "atc",
+        "anular",
+        "atlas",
+        "permite",
+        "pintar",
+        "emitir"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA",
+        "PETICION",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014874955",
+          "resumen": "[PPM 1043612]La factura no sale bien.",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014900407",
+          "resumen": "[PR]Error log sobre CAE",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "WO0000026504229",
+          "resumen": "LOG DE IMPRESION",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [
+        "Requiere atención prioritaria"
+      ],
+      "nivel_criticidad": "Alta"
+    },
+    "errores_sistema_critico_frecuentes": {
+      "nombre": "Errores Sistema Critico Frecuentes",
+      "descripcion": "Categoría 'Errores Sistema Critico Frecuentes' que agrupa 1089 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.",
+      "num_incidencias": 1089,
+      "palabras_clave": [
+        "atlas",
+        "error",
+        "delta",
+        "cups",
+        "2025",
+        "cliente",
+        "permite",
+        "facturas",
+        "incidencia",
+        "contrato"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026488615",
+          "resumen": "ES0022000007198428KJ1P",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026474104",
+          "resumen": "[R1]PROCESAR MENSAJERIA B1 04 CLIENTE VITAL CUPS ES0022000004549220EZ1P- URGENTE",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026420457",
+          "resumen": "Error genérico del cálculo OL 18/09/2017 ES0022000007788141QY1P",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [
+        "Afectación múltiple o masiva",
+        "Requiere atención prioritaria",
+        "Procesos automatizados"
+      ],
+      "nivel_criticidad": "Alta"
+    },
+    "procesos_batch_masivo": {
+      "nombre": "Procesos Batch Masivo",
+      "descripcion": "Categoría 'Procesos Batch Masivo' que agrupa 44 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "num_incidencias": 44,
+      "palabras_clave": [
+        "pro",
+        "fail",
+        "ended",
+        "not",
+        "ctm",
+        "delta",
+        "deltasmi",
+        "detfm930p",
+        "env",
+        "detf0162p"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014861972",
+          "resumen": "Fail DETF0162P-7-ENV",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014861956",
+          "resumen": "Fail DETFM930P-4",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014866303",
+          "resumen": "Ended Not OK 'DECOD157P' #CTM-PRO:54cpl#gni_oc-pro-ba-delta-01",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "facturación": {
+      "nombre": "Facturación",
+      "descripcion": "Categoría 'Facturación' que agrupa 43 incidencias relacionadas con procesos de facturación, cobros y aspectos económicos.",
+      "num_incidencias": 43,
+      "palabras_clave": [
+        "log",
+        "atlas",
+        "impresion",
+        "ora",
+        "01427",
+        "row",
+        "one",
+        "than",
+        "returns",
+        "subquery"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026419532",
+          "resumen": "[ATLAS]log de impresión",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026459265",
+          "resumen": "[ATLAS]LOG DE IMPRESION ORA-01427",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026486193",
+          "resumen": "[ATLAS]LOG DE IMPRESION",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Media"
+    },
+    "infraestructura": {
+      "nombre": "Infraestructura",
+      "descripcion": "Categoría 'Infraestructura' que agrupa 38 incidencias relacionadas con problemas de infraestructura, servicios y conectividad del sistema.",
+      "num_incidencias": 38,
+      "palabras_clave": [
+        "crear",
+        "puesto",
+        "trabajo"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026418582",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026457542",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026418578",
+          "resumen": "Crear puesto de trabajo",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "errores_sistema": {
+      "nombre": "Errores Sistema",
+      "descripcion": "Categoría 'Errores Sistema' que agrupa 40 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.",
+      "num_incidencias": 40,
+      "palabras_clave": [
+        "cups",
+        "regularizar",
+        "caudal",
+        "error",
+        "permite",
+        "gestionar",
+        "rechazo",
+        "xatlas",
+        "rechazos",
+        "es0217010132244809ps"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026452897",
+          "resumen": "REGULARIZAR CUPS  POR ERROR DE CAUDAL",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026512510",
+          "resumen": "REGULARIZAR CUPS POR ERROR DE CAUDAL ES0217010208123523DG",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026417487",
+          "resumen": "Regulariza cups por error de caudal ES0217010201896725BL",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Media"
+    },
+    "gestión_datos": {
+      "nombre": "Gestión Datos",
+      "descripcion": "Categoría 'Gestión Datos' que agrupa 50 incidencias relacionadas con gestión, actualización y procesamiento de datos.",
+      "num_incidencias": 50,
+      "palabras_clave": [
+        "solicitud",
+        "apartadas",
+        "regularizadoras",
+        "electricidad"
+      ],
+      "tipos_principales": [
+        "PETICION"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026521726",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026427220",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026486387",
+          "resumen": "Solicitud WA 2 apartadas regularizadoras electricidad",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "gestión_datos_automatico": {
+      "nombre": "Gestión Datos Automatico",
+      "descripcion": "Categoría 'Gestión Datos Automatico' que agrupa 59 incidencias relacionadas con gestión, actualización y procesamiento de datos.",
+      "num_incidencias": 59,
+      "palabras_clave": [
+        "fail",
+        "pro",
+        "delta",
+        "prodelta",
+        "ocpro",
+        "oraclevcn",
+        "com"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014895051",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014886285",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014886651",
+          "resumen": "Fail DELED255P_FTP",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "gestión_contratos_automatico_frecuentes": {
+      "nombre": "Gestión Contratos Automatico Frecuentes",
+      "descripcion": "Categoría 'Gestión Contratos Automatico Frecuentes' que agrupa 184 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.",
+      "num_incidencias": 184,
+      "palabras_clave": [
+        "error",
+        "alta",
+        "baja",
+        "lectura",
+        "bajas",
+        "aparato",
+        "permite",
+        "sfo",
+        "lecturas",
+        "cups"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA",
+        "CONSULTA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026472355",
+          "resumen": "[BAJAS] - Se solicita anulación de baja para el 28/05/25",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "INC000014884451",
+          "resumen": "Solicitud Rechazada",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "WO0000026440400",
+          "resumen": "Error alta de lectura Manual",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [
+        "Requiere atención prioritaria"
+      ],
+      "nivel_criticidad": "Alta"
+    },
+    "gestión_datos_masivo": {
+      "nombre": "Gestión Datos Masivo",
+      "descripcion": "Categoría 'Gestión Datos Masivo' que agrupa 75 incidencias relacionadas con gestión, actualización y procesamiento de datos.",
+      "num_incidencias": 75,
+      "palabras_clave": [
+        "fail",
+        "cyclic",
+        "ciclico",
+        "decod156p",
+        "depfdefe80",
+        "ocpro",
+        "oraclevcn",
+        "com",
+        "depfdefe38",
+        "delta"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014874518",
+          "resumen": "Fail ZOMCPFENF9",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014893291",
+          "resumen": "Fail D5TFD253P-1_FTPF #badeltasmi4.deltasmile.ocpro.oraclevcn.com",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014866803",
+          "resumen": "[CERRAR] Excessive DECOD156P",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Media"
+    },
+    "errores_sistema_automatico_frecuentes": {
+      "nombre": "Errores Sistema Automatico Frecuentes",
+      "descripcion": "Categoría 'Errores Sistema Automatico Frecuentes' que agrupa 196 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.",
+      "num_incidencias": 196,
+      "palabras_clave": [
+        "error",
+        "aparato",
+        "atlas",
+        "montaje",
+        "desmontaje",
+        "baja",
+        "eliminar",
+        "anular",
+        "alta",
+        "cups"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "CONSULTA",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026509623",
+          "resumen": "[ATLAS] - Se solicita eliminar aparato para el 19/06/25",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026531831",
+          "resumen": "No permite ingresar lecturas despues de 31/01/2025 incluyendo baja",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026532374",
+          "resumen": "error al calcular",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    },
+    "errores_sistema_automatico": {
+      "nombre": "Errores Sistema Automatico",
+      "descripcion": "Categoría 'Errores Sistema Automatico' que agrupa 62 incidencias relacionadas con fallos técnicos, excepciones y errores del sistema.",
+      "num_incidencias": 62,
+      "palabras_clave": [
+        "error",
+        "calcular",
+        "variante",
+        "proceso",
+        "agrupadores",
+        "sfo",
+        "calculo",
+        "batch",
+        "ficheros",
+        "clacular"
+      ],
+      "tipos_principales": [
+        "PETICION",
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "WO0000026460916",
+          "resumen": "[REV] error al calcular",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026445162",
+          "resumen": "[SFO P] error al calcular",
+          "tipo_ticket": "PETICION"
+        },
+        {
+          "id": "WO0000026453219",
+          "resumen": "error al calcular",
+          "tipo_ticket": "PETICION"
+        }
+      ],
+      "patrones_identificados": [
+        "Procesos automatizados"
+      ],
+      "nivel_criticidad": "Media"
+    },
+    "procesos_batch_automatico": {
+      "nombre": "Procesos Batch Automatico",
+      "descripcion": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "num_incidencias": 68,
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic",
+        "ciclico",
+        "d5vtd980p",
+        "d5atd095p",
+        "excessive",
+        "d5tfd272p"
+      ],
+      "tipos_principales": [
+        "INCIDENCIA"
+      ],
+      "ejemplos": [
+        {
+          "id": "INC000014853979",
+          "resumen": "Fail D5VTD980P-2",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014895067",
+          "resumen": "Fail D5COD310P",
+          "tipo_ticket": "INCIDENCIA"
+        },
+        {
+          "id": "INC000014877998",
+          "resumen": "Fail D5CTD251P",
+          "tipo_ticket": "INCIDENCIA"
+        }
+      ],
+      "patrones_identificados": [],
+      "nivel_criticidad": "Baja"
+    }
+  },
+  "metricas_modelo": {
+    "silhouette_score": 0.08653142319144803,
+    "model_accuracy": 0.9258777633289987,
+    "model_cv_score": 0.9258777633289987,
+    "num_clusters": 25,
+    "coverage": 1.0
+  },
+  "cluster_info": {
+    "num_clusters": 25,
+    "silhouette_score": 0.08653142319144803,
+    "cluster_sizes": {
+      "16": 1089,
+      "1": 408,
+      "13": 264,
+      "5": 207,
+      "20": 196,
+      "17": 184,
+      "6": 172,
+      "9": 168,
+      "14": 120,
+      "2": 118,
+      "19": 115,
+      "23": 101,
+      "0": 95,
+      "18": 75,
+      "24": 68,
+      "22": 62,
+      "3": 62,
+      "15": 59,
+      "12": 50,
+      "7": 44,
+      "21": 43,
+      "4": 42,
+      "11": 40,
+      "10": 38,
+      "8": 23
+    }
+  }
+}
