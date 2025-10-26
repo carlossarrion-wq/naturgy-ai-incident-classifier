@@ -1,0 +1,1536 @@
+====================================================================================================
+📊 REPORTE DE CASOS DE PRUEBA - CLASIFICADOR NATURGY
+====================================================================================================
+Fecha de análisis: 2025-10-24 14:11:26
+Total de casos de prueba: 100
+Casos clasificados exitosamente: 100
+Casos con error: 0
+
+📈 ESTADÍSTICAS DE CONFIANZA:
+• Confianza promedio: 0.794
+• Confianza mínima: 0.380
+• Confianza máxima: 0.990
+• Casos con alta confianza (>0.8): 28
+
+📊 DISTRIBUCIÓN POR CATEGORÍAS PREDICHAS:
+• Errores de cálculo/facturación: 37 casos (37.0%)
+• Gestión de CUPS: 21 casos (21.0%)
+• Direcciones y datos de cliente: 7 casos (7.0%)
+• Batch/Procesos automáticos: 7 casos (7.0%)
+• Procesos Batch Automatico: 5 casos (5.0%)
+• Extracciones e informes: 5 casos (5.0%)
+• Montaje/Desmontaje/Equipos de medida: 4 casos (4.0%)
+• Plantillas y documentación: 3 casos (3.0%)
+• Cambio de titularidad: 2 casos (2.0%)
+• Procesos Batch Masivo: 1 casos (1.0%)
+• Lecturas y mediciones: 1 casos (1.0%)
+• Rechazos y bloqueos: 1 casos (1.0%)
+• Campañas y marketing: 1 casos (1.0%)
+• Tarifas y productos: 1 casos (1.0%)
+• Consultas y soporte funcional: 1 casos (1.0%)
+• Bono social y vulnerabilidad: 1 casos (1.0%)
+• Gestión Contratos: 1 casos (1.0%)
+• Estados de cálculo/facturación: 1 casos (1.0%)
+
+🔍 DETALLE DE CASOS DE PRUEBA:
+====================================================================================================
+
+📋 CASO #001
+------------------------------------------------------------
+ID Ticket: WO0000026525299
+Resumen Original: Anular desmontaje y montaje de aparato cups ES0022000008571181KB1P
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Montaje/Desmontaje/Equipos de medida
+• ID Categoría: montaje_desmontaje_equipos
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)
+• Palabras clave: montaje, desmontaje, cambio de aparato, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #002
+------------------------------------------------------------
+ID Ticket: WO0000026501073
+Resumen Original: Crear puesto de trabajo
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Plantillas y documentación
+• ID Categoría: plantillas_documentacion
+• Confianza: 0.750
+• Criticidad: Baja
+• Descripción: Subida, eliminación o modificación de plantillas y documentos
+• Palabras clave: plantilla, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #003
+------------------------------------------------------------
+ID Ticket: WO0000026473032
+Resumen Original: [ATLAS]Error baja cuida
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #004
+------------------------------------------------------------
+ID Ticket: WO0000026433834
+Resumen Original: Generar Anexo Pre-Oferta
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Masivo
+• ID Categoría: tipo_06
+• Confianza: 0.910
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Masivo' que agrupa 44 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: pro, fail, ended, not, ctm
+------------------------------------------------------------
+
+📋 CASO #005
+------------------------------------------------------------
+ID Ticket: WO0000026430957
+Resumen Original: [E1] Cambiar el IEH de dela oferta 8100781669
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #006
+------------------------------------------------------------
+ID Ticket: WO0000026423727
+Resumen Original: Error Alta manual de lecturas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Lecturas y mediciones
+• ID Categoría: lecturas_mediciones
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Problemas con lecturas (baja, alta, modificar, anular, solapes, PCS)
+• Palabras clave: lecturas, alta manual de lecturas, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #007
+------------------------------------------------------------
+ID Ticket: WO0000026512091
+Resumen Original: REGULARIZAR CUPS NO PERMITE GESITONAR RECHAZO ES0221080005390742PJ
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Rechazos y bloqueos
+• ID Categoría: rechazos_bloqueos
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Rechazos de solicitudes o bloqueos en proceso
+• Palabras clave: rechazo, gestionar rechazo, no permite gestionar rechazo, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #008
+------------------------------------------------------------
+ID Ticket: WO0000026493550
+Resumen Original: PASAR A NO TRATABLES
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Automatico
+• ID Categoría: tipo_16
+• Confianza: 0.670
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: fail, long, d5led123p, running, cyclic
+------------------------------------------------------------
+
+📋 CASO #009
+------------------------------------------------------------
+ID Ticket: WO0000026524329
+Resumen Original: [ATLAS][PR] Actualizar puntos de suministros que no se han replicado para AC
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #010
+------------------------------------------------------------
+ID Ticket: INC000014896092
+Resumen Original: Cambio de titular sin subrogación
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.850
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: teléfono, dni, email, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #011
+------------------------------------------------------------
+ID Ticket: WO0000026417788
+Resumen Original: [xATLAS] SOLICITO AYUDA PARA FUSIONAR CLIENTE CLONADO
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #012
+------------------------------------------------------------
+ID Ticket: WO0000026509949
+Resumen Original: [ATC 10/09/2025] Se solicita se realice la activacion en curso de la linea de oferta 010907006422578
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #013
+------------------------------------------------------------
+ID Ticket: WO0000026412247
+Resumen Original: [R2]IVA pa's
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #014
+------------------------------------------------------------
+ID Ticket: WO0000026460182
+Resumen Original: Extracción indicador telemetría gas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Extracciones e informes
+• ID Categoría: extracciones_informes
+• Confianza: 0.800
+• Criticidad: Baja
+• Descripción: Solicitudes de listados, informes, queries
+• Palabras clave: extracción, listado, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #015
+------------------------------------------------------------
+ID Ticket: WO0000026489655
+Resumen Original: Regularización Anulación factura AE25137000139867
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #016
+------------------------------------------------------------
+ID Ticket: WO0000026501919
+Resumen Original: [ATLAS]ES0022000006092468YP1P log por tarifas comerciales
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #017
+------------------------------------------------------------
+ID Ticket: WO0000026492513
+Resumen Original: ELIMINAR CAMPAÑAS SIMULADAS QUE DA ERROR AL INTENTAR ELIMINARLA MANUALMENTE
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Campañas y marketing
+• ID Categoría: campanas_marketing
+• Confianza: 0.800
+• Criticidad: Baja
+• Descripción: Ejecución o errores en campañas
+• Palabras clave: campaña, eliminar campañas simuladas, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #018
+------------------------------------------------------------
+ID Ticket: INC000014883577
+Resumen Original: Cambio de titular sin subrogación
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.850
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: teléfono, dni, email, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #019
+------------------------------------------------------------
+ID Ticket: WO0000026430760
+Resumen Original: Cliente solicita una extracción de las coberturas de Delta 2025 y 2026
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #020
+------------------------------------------------------------
+ID Ticket: WO0000026440774
+Resumen Original: Recuento cuentas contrato informadas en el nuevo RD
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #021
+------------------------------------------------------------
+ID Ticket: WO0000026505259
+Resumen Original: No permite calcular
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: no permite calcular, ol, error edm, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #022
+------------------------------------------------------------
+ID Ticket: WO0000026423333
+Resumen Original: Crear puesto de trabajo
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Plantillas y documentación
+• ID Categoría: plantillas_documentacion
+• Confianza: 0.750
+• Criticidad: Baja
+• Descripción: Subida, eliminación o modificación de plantillas y documentos
+• Palabras clave: plantilla, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #023
+------------------------------------------------------------
+ID Ticket: WO0000026462617
+Resumen Original: Error reasignación usuario genérico
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Automatico
+• ID Categoría: tipo_16
+• Confianza: 0.510
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: fail, long, d5led123p, running, cyclic
+------------------------------------------------------------
+
+📋 CASO #024
+------------------------------------------------------------
+ID Ticket: WO0000026441132
+Resumen Original: •	Extracción de los cobros de los clientes minoristas con bloqueo GJ (gabinete jurídico) reci...
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Extracciones e informes
+• ID Categoría: extracciones_informes
+• Confianza: 0.800
+• Criticidad: Baja
+• Descripción: Solicitudes de listados, informes, queries
+• Palabras clave: extracción, listado, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #025
+------------------------------------------------------------
+ID Ticket: WO0000026481701
+Resumen Original: [ATLAS] - Error al anular desmontaje y montaje
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Montaje/Desmontaje/Equipos de medida
+• ID Categoría: montaje_desmontaje_equipos
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)
+• Palabras clave: montaje, desmontaje, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #026
+------------------------------------------------------------
+ID Ticket: WO0000026477367
+Resumen Original: ERROR EN CALCULO
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: error al calcular, orden de cálculo, oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #027
+------------------------------------------------------------
+ID Ticket: WO0000026415934
+Resumen Original: Pintado pdf factura
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Automatico
+• ID Categoría: tipo_16
+• Confianza: 0.380
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: fail, long, d5led123p, running, cyclic
+------------------------------------------------------------
+
+📋 CASO #028
+------------------------------------------------------------
+ID Ticket: INC000014888900
+Resumen Original: CAMBIO DE TITULAR
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Cambio de titularidad
+• ID Categoría: cambio_titularidad
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Solicitudes o errores en cambio de titular (con o sin subrogación)
+• Palabras clave: cambio de titular, titular, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #029
+------------------------------------------------------------
+ID Ticket: WO0000026533664
+Resumen Original: [ATLAS]Ofuscación email
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.850
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: correo electrónico, dni, email, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #030
+------------------------------------------------------------
+ID Ticket: WO0000026420884
+Resumen Original: [xATLAS] Desvincular CUPS sector
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: desvincular cups, cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #031
+------------------------------------------------------------
+ID Ticket: WO0000026415677
+Resumen Original: Solicitud WA 2 apartadas regularizadoras electricidad
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #032
+------------------------------------------------------------
+ID Ticket: WO0000026410123
+Resumen Original: [X]CONTRATO ANULADO
+Tipo Original: CONSULTA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #033
+------------------------------------------------------------
+ID Ticket: WO0000026435772
+Resumen Original: [Sx P] "Error genérico del cálculo - null: java.lang.NullPointerException" - ES0022000009000167CR1P
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, java.lang.nullpointerexception, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #034
+------------------------------------------------------------
+ID Ticket: WO0000026490090
+Resumen Original: Modificar final CUPS
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #035
+------------------------------------------------------------
+ID Ticket: INC000014894861
+Resumen Original: [ATLAS]Actualización de datos
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #036
+------------------------------------------------------------
+ID Ticket: WO0000026476454
+Resumen Original: ATR GAS_ELE PORT
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #037
+------------------------------------------------------------
+ID Ticket: WO0000026516987
+Resumen Original: Código de distribuidora incorrecto
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #038
+------------------------------------------------------------
+ID Ticket: INC000014887295
+Resumen Original: SOLICITUD DE MODIFICACIÓN ACTIVA
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #039
+------------------------------------------------------------
+ID Ticket: WO0000026445727
+Resumen Original: [PPM1042683] Tarea Renovación Anticipada Fecha Fin - Error Visado Precio Concepto
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #040
+------------------------------------------------------------
+ID Ticket: INC000014898683
+Resumen Original: A16-0003602617
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Cambio de titularidad
+• ID Categoría: cambio_titularidad
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Solicitudes o errores en cambio de titular (con o sin subrogación)
+• Palabras clave: cambio de titular, titular, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #041
+------------------------------------------------------------
+ID Ticket: WO0000026465300
+Resumen Original: Necesitamos retirar unas plantillas de Gas para subir nuevos contratos
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Plantillas y documentación
+• ID Categoría: plantillas_documentacion
+• Confianza: 0.800
+• Criticidad: Baja
+• Descripción: Subida, eliminación o modificación de plantillas y documentos
+• Palabras clave: plantillas, plantilla, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #042
+------------------------------------------------------------
+ID Ticket: WO0000026442271
+Resumen Original: Extracción pendiente a fin de mes
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #043
+------------------------------------------------------------
+ID Ticket: WO0000026511996
+Resumen Original: no se puede tipificar, ni se puede ver las facturas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Automatico
+• ID Categoría: tipo_16
+• Confianza: 0.880
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: fail, long, d5led123p, running, cyclic
+------------------------------------------------------------
+
+📋 CASO #044
+------------------------------------------------------------
+ID Ticket: WO0000026425621
+Resumen Original: [PPM1041812] Descripción: Fallo batch DEVTD980P_2
+Tipo Original: CONSULTA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Tarifas y productos
+• ID Categoría: tarifas_productos
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Cambio o corrección de tarifas, productos contratados o servicios adicionales
+• Palabras clave: mantenimiento, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #045
+------------------------------------------------------------
+ID Ticket: INC000014884764
+Resumen Original: Long running  DETFD251P
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: long running, batch, script, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #046
+------------------------------------------------------------
+ID Ticket: WO0000026512262
+Resumen Original: Revisar Log de cálculo TIPDET0061 - Validaciones coherencia DC
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: tipdet, orden de cálculo, oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #047
+------------------------------------------------------------
+ID Ticket: WO0000026462814
+Resumen Original: [ATLAS] [PR] Cambiar el tipo documento en dos clientes
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #048
+------------------------------------------------------------
+ID Ticket: WO0000026424663
+Resumen Original: DELTA - VENTAS
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Consultas y soporte funcional
+• ID Categoría: consultas_soporte_funcional
+• Confianza: 0.750
+• Criticidad: Baja
+• Descripción: Preguntas sobre funcionamiento, tablas, procesos, criterios
+• Palabras clave: funcionamiento, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #049
+------------------------------------------------------------
+ID Ticket: INC000014869213
+Resumen Original: Fail DELES120P
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: fail, batch, script, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #050
+------------------------------------------------------------
+ID Ticket: WO0000026409964
+Resumen Original: [SX P]Solapes MAYO 2025
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #051
+------------------------------------------------------------
+ID Ticket: INC000014880958
+Resumen Original: Ended Not OK 'DELED255P_FTP' #CTM-PRO:5i07m#gni_oc-pro-ba-delta-02
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: ended not ok, script, job, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #052
+------------------------------------------------------------
+ID Ticket: WO0000026459030
+Resumen Original: [PPM1043960] TIPDET0074 - Hay conceptos con vigencias mal definidas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: tipdet, orden de cálculo, oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #053
+------------------------------------------------------------
+ID Ticket: WO0000026416986
+Resumen Original: Para el CUPS ES0022000007579507FM1P  se intenta lanzar anulacion de baja pero sistema lo rechaza....
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #054
+------------------------------------------------------------
+ID Ticket: WO0000026443710
+Resumen Original: [xATLAS] SOLICITUD DE UNIFICACION DE LOS DOS SUMINISTROS EN UNA CARPETA
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: nif, dni, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #055
+------------------------------------------------------------
+ID Ticket: INC000014859894
+Resumen Original: IMPOSILIBILIDAD VALIDAR OFERTA 35442052H
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #056
+------------------------------------------------------------
+ID Ticket: WO0000026458321
+Resumen Original: [SFO P] error al calcular
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: error al calcular, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #057
+------------------------------------------------------------
+ID Ticket: WO0000026448685
+Resumen Original: Mover ubicación CUPS ES0031408359291005GP0F
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #058
+------------------------------------------------------------
+ID Ticket: WO0000026514462
+Resumen Original: Forzar envío ATR a REA
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Procesos Batch Automatico
+• ID Categoría: tipo_16
+• Confianza: 0.990
+• Criticidad: Baja
+• Descripción: Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.
+• Palabras clave: fail, long, d5led123p, running, cyclic
+------------------------------------------------------------
+
+📋 CASO #059
+------------------------------------------------------------
+ID Ticket: INC000014887784
+Resumen Original: [ATLAS]Datos incompletos en ficha de cliente que impiden lanzar solicitud de AC
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: dni, datos incompletos, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #060
+------------------------------------------------------------
+ID Ticket: WO0000026501971
+Resumen Original: OGSC - PRIORIDAD - IGCC - SR R16-0003302530
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Bono social y vulnerabilidad
+• ID Categoría: bono_social_vulnerabilidad
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Alta, renovación, corrección de datos del bono social
+• Palabras clave: bono, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #061
+------------------------------------------------------------
+ID Ticket: INC000014895577
+Resumen Original: Fail DELED100P
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: fail, batch, script, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #062
+------------------------------------------------------------
+ID Ticket: INC000014896865
+Resumen Original: No carga el M105
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #063
+------------------------------------------------------------
+ID Ticket: WO0000026531878
+Resumen Original: [ATLAS]Ofuscación Email
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.850
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: correo electrónico, dni, email, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #064
+------------------------------------------------------------
+ID Ticket: INC000014862798
+Resumen Original: Emisión de facturas
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: orden de cálculo, oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #065
+------------------------------------------------------------
+ID Ticket: WO0000026513201
+Resumen Original: ACTUACION POR DIFERENCIAS CUPS_ES0230901000024577QR
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #066
+------------------------------------------------------------
+ID Ticket: WO0000026449197
+Resumen Original: Modificar fecha de inactivación de la LO 79347755
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #067
+------------------------------------------------------------
+ID Ticket: WO0000026410604
+Resumen Original: solicitud informe listado clientes 2 01 de junio
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Extracciones e informes
+• ID Categoría: extracciones_informes
+• Confianza: 0.900
+• Criticidad: Baja
+• Descripción: Solicitudes de listados, informes, queries
+• Palabras clave: extracción, informe, listado, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #068
+------------------------------------------------------------
+ID Ticket: WO0000026469343
+Resumen Original: [FO P]VALIDACION CALENDARIO ES0217010212775759HF
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #069
+------------------------------------------------------------
+ID Ticket: INC000014878890
+Resumen Original: [E1] NO hube Interfaz DELTA-SAP
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #070
+------------------------------------------------------------
+ID Ticket: INC000014889063
+Resumen Original: visualizar contratos  area de clientes
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión Contratos
+• ID Categoría: tipo_03
+• Confianza: 0.820
+• Criticidad: Baja
+• Descripción: Categoría 'Gestión Contratos' que agrupa 42 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.
+• Palabras clave: modificar, fechas, xatlas, cups, es0217010042671119kd
+------------------------------------------------------------
+
+📋 CASO #071
+------------------------------------------------------------
+ID Ticket: WO0000026443472
+Resumen Original: [ATC 02/07/2025] No se puede anular facturas AE24137000121140 y FE24137002910887 en el cups ES023415
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #072
+------------------------------------------------------------
+ID Ticket: INC000014861957
+Resumen Original: Fail DETFM930P-3
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: fail, batch, timeout, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #073
+------------------------------------------------------------
+ID Ticket: INC000014892363
+Resumen Original: Fail DELED255P_FTP
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.900
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: fail, timeout, script, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #074
+------------------------------------------------------------
+ID Ticket: INC000014880025
+Resumen Original: Fail DECOD160P #oc-pro-ba-delta-01.prodelta.ocpro.oraclevcn.com
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Batch/Procesos automáticos
+• ID Categoría: batch_procesos_automaticos
+• Confianza: 0.950
+• Criticidad: Alta
+• Descripción: Errores técnicos en procesos batch, FTP, interfaces
+• Palabras clave: fail, batch, script, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #075
+------------------------------------------------------------
+ID Ticket: INC000014896209
+Resumen Original: [ATLAS][ATC 17/09/2025] R16-0003792593-*Errores Datos del Titular
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Direcciones y datos de cliente
+• ID Categoría: direcciones_datos_cliente
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Cambios o correcciones en dirección, nombre, NIF, email, teléfono
+• Palabras clave: datos del titular, email, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #076
+------------------------------------------------------------
+ID Ticket: WO0000026466440
+Resumen Original: [R2]CAMBIO DE DIRECCIÓN CUPS: ES0217010057987978YH
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #077
+------------------------------------------------------------
+ID Ticket: WO0000026440513
+Resumen Original: CUPS ES0033770122827015QM0F no cuenta con LO
+Tipo Original: CONSULTA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #078
+------------------------------------------------------------
+ID Ticket: WO0000026506965
+Resumen Original: [BAJAS] - ANULACION BAJA
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #079
+------------------------------------------------------------
+ID Ticket: WO0000026493199
+Resumen Original: ATR SIN CONTRARO RELACIONADO
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #080
+------------------------------------------------------------
+ID Ticket: WO0000026516615
+Resumen Original: Solicito datos de contacto de clientes mayoristas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #081
+------------------------------------------------------------
+ID Ticket: INC000014853541
+Resumen Original: [ATLAS]Actualización de direccion
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #082
+------------------------------------------------------------
+ID Ticket: WO0000026482964
+Resumen Original: Anulación montaje 03/06/2025 y desmontaje 01/06/2025 ES0234150038933695NR.  NOVEDAD AL CARGAR LE...
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Montaje/Desmontaje/Equipos de medida
+• ID Categoría: montaje_desmontaje_equipos
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)
+• Palabras clave: montaje, desmontaje, cambio de aparato, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #083
+------------------------------------------------------------
+ID Ticket: WO0000026429771
+Resumen Original: [ATLAS][PR] contrato anulado 01422506000318 necesitamos que pase a vigente
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #084
+------------------------------------------------------------
+ID Ticket: WO0000026433574
+Resumen Original: [ATLAS] Eliminar el mail CC del Servicio de Envio de facturas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #085
+------------------------------------------------------------
+ID Ticket: INC000014862321
+Resumen Original: [ATLAS]error en validacion numero documento
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #086
+------------------------------------------------------------
+ID Ticket: INC000014889059
+Resumen Original: EMISION DE FACTURA
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #087
+------------------------------------------------------------
+ID Ticket: WO0000026480394
+Resumen Original: NO PERMITE CALCULO
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Gestión de CUPS
+• ID Categoría: gestion_cups
+• Confianza: 0.750
+• Criticidad: Media
+• Descripción: Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)
+• Palabras clave: cups, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #088
+------------------------------------------------------------
+ID Ticket: WO0000026450529
+Resumen Original: EXTRACCIÓN CUENTAS NR03 A NR100
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Extracciones e informes
+• ID Categoría: extracciones_informes
+• Confianza: 0.750
+• Criticidad: Baja
+• Descripción: Solicitudes de listados, informes, queries
+• Palabras clave: extracción, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #089
+------------------------------------------------------------
+ID Ticket: WO0000026425738
+Resumen Original: [E1] [ATLAS] [PR] Ver bajas 4cups
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #090
+------------------------------------------------------------
+ID Ticket: INC000014889125
+Resumen Original: REGISTRA CALCULABLES NO RECIBE FACTURAS
+Tipo Original: INCIDENCIA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Estados de cálculo/facturación
+• ID Categoría: estados_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Media
+• Descripción: Cambios de estado (no calculable, calculable, bloqueado) o incoherencias en estado de cálculo
+• Palabras clave: no calculable, calculable, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #091
+------------------------------------------------------------
+ID Ticket: WO0000026420573
+Resumen Original: [ATLAS]Baja de Cuida Basico
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #092
+------------------------------------------------------------
+ID Ticket: WO0000026446309
+Resumen Original: [ATLAS] - No se puede eliminar aparato
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Montaje/Desmontaje/Equipos de medida
+• ID Categoría: montaje_desmontaje_equipos
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)
+• Palabras clave: no se puede eliminar aparato, eliminar aparato, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #093
+------------------------------------------------------------
+ID Ticket: WO0000026433476
+Resumen Original: Extracción aparatos gas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Extracciones e informes
+• ID Categoría: extracciones_informes
+• Confianza: 0.850
+• Criticidad: Baja
+• Descripción: Solicitudes de listados, informes, queries
+• Palabras clave: extracción, listado, extracción aparatos, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #094
+------------------------------------------------------------
+ID Ticket: WO0000026420229
+Resumen Original: [ATLAS]Modificación de datos
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #095
+------------------------------------------------------------
+ID Ticket: WO0000026422254
+Resumen Original: [ATLAS] Anular lectura y pasar a cargada
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #096
+------------------------------------------------------------
+ID Ticket: WO0000026426072
+Resumen Original: Recuento cuentas contrato informadas en el nuevo RD
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #097
+------------------------------------------------------------
+ID Ticket: WO0000026429791
+Resumen Original: [SFO P] - Solapes de UFD, borrado de anuladoras y reprocese de curvas
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.800
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #098
+------------------------------------------------------------
+ID Ticket: WO0000026444865
+Resumen Original: [E1]Posibilidad de facturar en dólares
+Tipo Original: CONSULTA
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: error al calcular, oc, ol, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #099
+------------------------------------------------------------
+ID Ticket: WO0000026521742
+Resumen Original: [ATC 22/092025][ATLAS]- NO PERMITE CALCULAR
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.850
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: no permite calcular, orden de cálculo, oc, clasificación automática
+------------------------------------------------------------
+
+📋 CASO #100
+------------------------------------------------------------
+ID Ticket: WO0000026518317
+Resumen Original: [ATLAS] Resolver huecos ATR
+Tipo Original: PETICION
+
+🎯 CLASIFICACIÓN PREDICHA:
+• Categoría: Errores de cálculo/facturación
+• ID Categoría: errores_calculo_facturacion
+• Confianza: 0.750
+• Criticidad: Alta
+• Descripción: Mensajes de error durante el cálculo de órdenes de cálculo o facturas
+• Palabras clave: ol, clasificación automática
+------------------------------------------------------------
