@@ -1,0 +1,1534 @@
+{
+  "metadata": {
+    "fecha_analisis": "2025-10-24T14:11:26.046407",
+    "total_casos": 100,
+    "casos_exitosos": 100,
+    "casos_error": 0,
+    "confianza_promedio": 0.7935999999999999
+  },
+  "distribuciones": {
+    "por_categoria": {
+      "Montaje/Desmontaje/Equipos de medida": 4,
+      "Plantillas y documentación": 3,
+      "Errores de cálculo/facturación": 37,
+      "Procesos Batch Masivo": 1,
+      "Lecturas y mediciones": 1,
+      "Rechazos y bloqueos": 1,
+      "Procesos Batch Automatico": 5,
+      "Direcciones y datos de cliente": 7,
+      "Gestión de CUPS": 21,
+      "Extracciones e informes": 5,
+      "Campañas y marketing": 1,
+      "Cambio de titularidad": 2,
+      "Tarifas y productos": 1,
+      "Batch/Procesos automáticos": 7,
+      "Consultas y soporte funcional": 1,
+      "Bono social y vulnerabilidad": 1,
+      "Gestión Contratos": 1,
+      "Estados de cálculo/facturación": 1
+    },
+    "por_confianza": {
+      "alta_confianza": 28,
+      "media_confianza": 71,
+      "baja_confianza": 1
+    }
+  },
+  "casos_prueba": [
+    {
+      "ticket_id": "WO0000026525299",
+      "resumen_original": "Anular desmontaje y montaje de aparato cups ES0022000008571181KB1P",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "montaje_desmontaje_equipos",
+      "confianza": 0.85,
+      "nombre_categoria": "Montaje/Desmontaje/Equipos de medida",
+      "descripcion_categoria": "Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "montaje",
+        "desmontaje",
+        "cambio de aparato",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026501073",
+      "resumen_original": "Crear puesto de trabajo",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "plantillas_documentacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Plantillas y documentación",
+      "descripcion_categoria": "Subida, eliminación o modificación de plantillas y documentos",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "plantilla",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026473032",
+      "resumen_original": "[ATLAS]Error baja cuida",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026433834",
+      "resumen_original": "Generar Anexo Pre-Oferta",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_06",
+      "confianza": 0.91,
+      "nombre_categoria": "Procesos Batch Masivo",
+      "descripcion_categoria": "Categoría 'Procesos Batch Masivo' que agrupa 44 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "pro",
+        "fail",
+        "ended",
+        "not",
+        "ctm"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026430957",
+      "resumen_original": "[E1] Cambiar el IEH de dela oferta 8100781669",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026423727",
+      "resumen_original": "Error Alta manual de lecturas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "lecturas_mediciones",
+      "confianza": 0.8,
+      "nombre_categoria": "Lecturas y mediciones",
+      "descripcion_categoria": "Problemas con lecturas (baja, alta, modificar, anular, solapes, PCS)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "lecturas",
+        "alta manual de lecturas",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026512091",
+      "resumen_original": "REGULARIZAR CUPS NO PERMITE GESITONAR RECHAZO ES0221080005390742PJ",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "rechazos_bloqueos",
+      "confianza": 0.85,
+      "nombre_categoria": "Rechazos y bloqueos",
+      "descripcion_categoria": "Rechazos de solicitudes o bloqueos en proceso",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "rechazo",
+        "gestionar rechazo",
+        "no permite gestionar rechazo",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026493550",
+      "resumen_original": "PASAR A NO TRATABLES",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_16",
+      "confianza": 0.67,
+      "nombre_categoria": "Procesos Batch Automatico",
+      "descripcion_categoria": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026524329",
+      "resumen_original": "[ATLAS][PR] Actualizar puntos de suministros que no se han replicado para AC",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014896092",
+      "resumen_original": "Cambio de titular sin subrogación",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.85,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "teléfono",
+        "dni",
+        "email",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026417788",
+      "resumen_original": "[xATLAS] SOLICITO AYUDA PARA FUSIONAR CLIENTE CLONADO",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026509949",
+      "resumen_original": "[ATC 10/09/2025] Se solicita se realice la activacion en curso de la linea de oferta 010907006422578",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026412247",
+      "resumen_original": "[R2]IVA pa's",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026460182",
+      "resumen_original": "Extracción indicador telemetría gas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "extracciones_informes",
+      "confianza": 0.8,
+      "nombre_categoria": "Extracciones e informes",
+      "descripcion_categoria": "Solicitudes de listados, informes, queries",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "extracción",
+        "listado",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026489655",
+      "resumen_original": "Regularización Anulación factura AE25137000139867",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026501919",
+      "resumen_original": "[ATLAS]ES0022000006092468YP1P log por tarifas comerciales",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026492513",
+      "resumen_original": "ELIMINAR CAMPAÑAS SIMULADAS QUE DA ERROR AL INTENTAR ELIMINARLA MANUALMENTE",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "campanas_marketing",
+      "confianza": 0.8,
+      "nombre_categoria": "Campañas y marketing",
+      "descripcion_categoria": "Ejecución o errores en campañas",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "campaña",
+        "eliminar campañas simuladas",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014883577",
+      "resumen_original": "Cambio de titular sin subrogación",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.85,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "teléfono",
+        "dni",
+        "email",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026430760",
+      "resumen_original": "Cliente solicita una extracción de las coberturas de Delta 2025 y 2026",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026440774",
+      "resumen_original": "Recuento cuentas contrato informadas en el nuevo RD",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026505259",
+      "resumen_original": "No permite calcular",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "no permite calcular",
+        "ol",
+        "error edm",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026423333",
+      "resumen_original": "Crear puesto de trabajo",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "plantillas_documentacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Plantillas y documentación",
+      "descripcion_categoria": "Subida, eliminación o modificación de plantillas y documentos",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "plantilla",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026462617",
+      "resumen_original": "Error reasignación usuario genérico",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_16",
+      "confianza": 0.51,
+      "nombre_categoria": "Procesos Batch Automatico",
+      "descripcion_categoria": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026441132",
+      "resumen_original": "•\tExtracción de los cobros de los clientes minoristas con bloqueo GJ (gabinete jurídico) reci...",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "extracciones_informes",
+      "confianza": 0.8,
+      "nombre_categoria": "Extracciones e informes",
+      "descripcion_categoria": "Solicitudes de listados, informes, queries",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "extracción",
+        "listado",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026481701",
+      "resumen_original": "[ATLAS] - Error al anular desmontaje y montaje",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "montaje_desmontaje_equipos",
+      "confianza": 0.8,
+      "nombre_categoria": "Montaje/Desmontaje/Equipos de medida",
+      "descripcion_categoria": "Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "montaje",
+        "desmontaje",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026477367",
+      "resumen_original": "ERROR EN CALCULO",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "error al calcular",
+        "orden de cálculo",
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026415934",
+      "resumen_original": "Pintado pdf factura",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_16",
+      "confianza": 0.38,
+      "nombre_categoria": "Procesos Batch Automatico",
+      "descripcion_categoria": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic"
+      ]
+    },
+    {
+      "ticket_id": "INC000014888900",
+      "resumen_original": "CAMBIO DE TITULAR",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "cambio_titularidad",
+      "confianza": 0.8,
+      "nombre_categoria": "Cambio de titularidad",
+      "descripcion_categoria": "Solicitudes o errores en cambio de titular (con o sin subrogación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cambio de titular",
+        "titular",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026533664",
+      "resumen_original": "[ATLAS]Ofuscación email",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.85,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "correo electrónico",
+        "dni",
+        "email",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026420884",
+      "resumen_original": "[xATLAS] Desvincular CUPS sector",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.8,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "desvincular cups",
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026415677",
+      "resumen_original": "Solicitud WA 2 apartadas regularizadoras electricidad",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026410123",
+      "resumen_original": "[X]CONTRATO ANULADO",
+      "tipo_ticket_original": "CONSULTA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026435772",
+      "resumen_original": "[Sx P] \"Error genérico del cálculo - null: java.lang.NullPointerException\" - ES0022000009000167CR1P",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.95,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "java.lang.nullpointerexception",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026490090",
+      "resumen_original": "Modificar final CUPS",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014894861",
+      "resumen_original": "[ATLAS]Actualización de datos",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026476454",
+      "resumen_original": "ATR GAS_ELE PORT",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026516987",
+      "resumen_original": "Código de distribuidora incorrecto",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014887295",
+      "resumen_original": "SOLICITUD DE MODIFICACIÓN ACTIVA",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026445727",
+      "resumen_original": "[PPM1042683] Tarea Renovación Anticipada Fecha Fin - Error Visado Precio Concepto",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014898683",
+      "resumen_original": "A16-0003602617",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "cambio_titularidad",
+      "confianza": 0.8,
+      "nombre_categoria": "Cambio de titularidad",
+      "descripcion_categoria": "Solicitudes o errores en cambio de titular (con o sin subrogación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cambio de titular",
+        "titular",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026465300",
+      "resumen_original": "Necesitamos retirar unas plantillas de Gas para subir nuevos contratos",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "plantillas_documentacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Plantillas y documentación",
+      "descripcion_categoria": "Subida, eliminación o modificación de plantillas y documentos",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "plantillas",
+        "plantilla",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026442271",
+      "resumen_original": "Extracción pendiente a fin de mes",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026511996",
+      "resumen_original": "no se puede tipificar, ni se puede ver las facturas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_16",
+      "confianza": 0.88,
+      "nombre_categoria": "Procesos Batch Automatico",
+      "descripcion_categoria": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026425621",
+      "resumen_original": "[PPM1041812] Descripción: Fallo batch DEVTD980P_2",
+      "tipo_ticket_original": "CONSULTA",
+      "categoria_predicha": "tarifas_productos",
+      "confianza": 0.75,
+      "nombre_categoria": "Tarifas y productos",
+      "descripcion_categoria": "Cambio o corrección de tarifas, productos contratados o servicios adicionales",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "mantenimiento",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014884764",
+      "resumen_original": "Long running  DETFD251P",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.95,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "long running",
+        "batch",
+        "script",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026512262",
+      "resumen_original": "Revisar Log de cálculo TIPDET0061 - Validaciones coherencia DC",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "tipdet",
+        "orden de cálculo",
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026462814",
+      "resumen_original": "[ATLAS] [PR] Cambiar el tipo documento en dos clientes",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026424663",
+      "resumen_original": "DELTA - VENTAS",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "consultas_soporte_funcional",
+      "confianza": 0.75,
+      "nombre_categoria": "Consultas y soporte funcional",
+      "descripcion_categoria": "Preguntas sobre funcionamiento, tablas, procesos, criterios",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "funcionamiento",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014869213",
+      "resumen_original": "Fail DELES120P",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.95,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "fail",
+        "batch",
+        "script",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026409964",
+      "resumen_original": "[SX P]Solapes MAYO 2025",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014880958",
+      "resumen_original": "Ended Not OK 'DELED255P_FTP' #CTM-PRO:5i07m#gni_oc-pro-ba-delta-02",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.85,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ended not ok",
+        "script",
+        "job",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026459030",
+      "resumen_original": "[PPM1043960] TIPDET0074 - Hay conceptos con vigencias mal definidas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "tipdet",
+        "orden de cálculo",
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026416986",
+      "resumen_original": "Para el CUPS ES0022000007579507FM1P  se intenta lanzar anulacion de baja pero sistema lo rechaza....",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026443710",
+      "resumen_original": "[xATLAS] SOLICITUD DE UNIFICACION DE LOS DOS SUMINISTROS EN UNA CARPETA",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.8,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "nif",
+        "dni",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014859894",
+      "resumen_original": "IMPOSILIBILIDAD VALIDAR OFERTA 35442052H",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026458321",
+      "resumen_original": "[SFO P] error al calcular",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "error al calcular",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026448685",
+      "resumen_original": "Mover ubicación CUPS ES0031408359291005GP0F",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026514462",
+      "resumen_original": "Forzar envío ATR a REA",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "tipo_16",
+      "confianza": 0.99,
+      "nombre_categoria": "Procesos Batch Automatico",
+      "descripcion_categoria": "Categoría 'Procesos Batch Automatico' que agrupa 68 incidencias relacionadas con procesos automatizados, jobs y tareas programadas.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "fail",
+        "long",
+        "d5led123p",
+        "running",
+        "cyclic"
+      ]
+    },
+    {
+      "ticket_id": "INC000014887784",
+      "resumen_original": "[ATLAS]Datos incompletos en ficha de cliente que impiden lanzar solicitud de AC",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.8,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "dni",
+        "datos incompletos",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026501971",
+      "resumen_original": "OGSC - PRIORIDAD - IGCC - SR R16-0003302530",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "bono_social_vulnerabilidad",
+      "confianza": 0.75,
+      "nombre_categoria": "Bono social y vulnerabilidad",
+      "descripcion_categoria": "Alta, renovación, corrección de datos del bono social",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "bono",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014895577",
+      "resumen_original": "Fail DELED100P",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.95,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "fail",
+        "batch",
+        "script",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014896865",
+      "resumen_original": "No carga el M105",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026531878",
+      "resumen_original": "[ATLAS]Ofuscación Email",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.85,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "correo electrónico",
+        "dni",
+        "email",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014862798",
+      "resumen_original": "Emisión de facturas",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "orden de cálculo",
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026513201",
+      "resumen_original": "ACTUACION POR DIFERENCIAS CUPS_ES0230901000024577QR",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026449197",
+      "resumen_original": "Modificar fecha de inactivación de la LO 79347755",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026410604",
+      "resumen_original": "solicitud informe listado clientes 2 01 de junio",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "extracciones_informes",
+      "confianza": 0.9,
+      "nombre_categoria": "Extracciones e informes",
+      "descripcion_categoria": "Solicitudes de listados, informes, queries",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "extracción",
+        "informe",
+        "listado",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026469343",
+      "resumen_original": "[FO P]VALIDACION CALENDARIO ES0217010212775759HF",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014878890",
+      "resumen_original": "[E1] NO hube Interfaz DELTA-SAP",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014889063",
+      "resumen_original": "visualizar contratos  area de clientes",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "tipo_03",
+      "confianza": 0.82,
+      "nombre_categoria": "Gestión Contratos",
+      "descripcion_categoria": "Categoría 'Gestión Contratos' que agrupa 42 incidencias relacionadas con gestión de contratos, altas, bajas y modificaciones.",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "modificar",
+        "fechas",
+        "xatlas",
+        "cups",
+        "es0217010042671119kd"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026443472",
+      "resumen_original": "[ATC 02/07/2025] No se puede anular facturas AE24137000121140 y FE24137002910887 en el cups ES023415",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014861957",
+      "resumen_original": "Fail DETFM930P-3",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.95,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "fail",
+        "batch",
+        "timeout",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014892363",
+      "resumen_original": "Fail DELED255P_FTP",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.9,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "fail",
+        "timeout",
+        "script",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014880025",
+      "resumen_original": "Fail DECOD160P #oc-pro-ba-delta-01.prodelta.ocpro.oraclevcn.com",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "batch_procesos_automaticos",
+      "confianza": 0.95,
+      "nombre_categoria": "Batch/Procesos automáticos",
+      "descripcion_categoria": "Errores técnicos en procesos batch, FTP, interfaces",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "fail",
+        "batch",
+        "script",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014896209",
+      "resumen_original": "[ATLAS][ATC 17/09/2025] R16-0003792593-*Errores Datos del Titular",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "direcciones_datos_cliente",
+      "confianza": 0.8,
+      "nombre_categoria": "Direcciones y datos de cliente",
+      "descripcion_categoria": "Cambios o correcciones en dirección, nombre, NIF, email, teléfono",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "datos del titular",
+        "email",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026466440",
+      "resumen_original": "[R2]CAMBIO DE DIRECCIÓN CUPS: ES0217010057987978YH",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026440513",
+      "resumen_original": "CUPS ES0033770122827015QM0F no cuenta con LO",
+      "tipo_ticket_original": "CONSULTA",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026506965",
+      "resumen_original": "[BAJAS] - ANULACION BAJA",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026493199",
+      "resumen_original": "ATR SIN CONTRARO RELACIONADO",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026516615",
+      "resumen_original": "Solicito datos de contacto de clientes mayoristas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014853541",
+      "resumen_original": "[ATLAS]Actualización de direccion",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026482964",
+      "resumen_original": "Anulación montaje 03/06/2025 y desmontaje 01/06/2025 ES0234150038933695NR.  NOVEDAD AL CARGAR LE...",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "montaje_desmontaje_equipos",
+      "confianza": 0.85,
+      "nombre_categoria": "Montaje/Desmontaje/Equipos de medida",
+      "descripcion_categoria": "Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "montaje",
+        "desmontaje",
+        "cambio de aparato",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026429771",
+      "resumen_original": "[ATLAS][PR] contrato anulado 01422506000318 necesitamos que pase a vigente",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026433574",
+      "resumen_original": "[ATLAS] Eliminar el mail CC del Servicio de Envio de facturas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014862321",
+      "resumen_original": "[ATLAS]error en validacion numero documento",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014889059",
+      "resumen_original": "EMISION DE FACTURA",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026480394",
+      "resumen_original": "NO PERMITE CALCULO",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "gestion_cups",
+      "confianza": 0.75,
+      "nombre_categoria": "Gestión de CUPS",
+      "descripcion_categoria": "Todo ticket que mencione explícitamente un CUPS y acciones sobre él (alta, baja, cambio de datos, asociación/desvinculación)",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "cups",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026450529",
+      "resumen_original": "EXTRACCIÓN CUENTAS NR03 A NR100",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "extracciones_informes",
+      "confianza": 0.75,
+      "nombre_categoria": "Extracciones e informes",
+      "descripcion_categoria": "Solicitudes de listados, informes, queries",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "extracción",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026425738",
+      "resumen_original": "[E1] [ATLAS] [PR] Ver bajas 4cups",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "INC000014889125",
+      "resumen_original": "REGISTRA CALCULABLES NO RECIBE FACTURAS",
+      "tipo_ticket_original": "INCIDENCIA",
+      "categoria_predicha": "estados_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Estados de cálculo/facturación",
+      "descripcion_categoria": "Cambios de estado (no calculable, calculable, bloqueado) o incoherencias en estado de cálculo",
+      "criticidad": "Media",
+      "palabras_clave": [
+        "no calculable",
+        "calculable",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026420573",
+      "resumen_original": "[ATLAS]Baja de Cuida Basico",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026446309",
+      "resumen_original": "[ATLAS] - No se puede eliminar aparato",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "montaje_desmontaje_equipos",
+      "confianza": 0.8,
+      "nombre_categoria": "Montaje/Desmontaje/Equipos de medida",
+      "descripcion_categoria": "Incidencias sobre aparatos o contadores (montaje, desmontaje, levantamiento, error en equipos)",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "no se puede eliminar aparato",
+        "eliminar aparato",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026433476",
+      "resumen_original": "Extracción aparatos gas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "extracciones_informes",
+      "confianza": 0.85,
+      "nombre_categoria": "Extracciones e informes",
+      "descripcion_categoria": "Solicitudes de listados, informes, queries",
+      "criticidad": "Baja",
+      "palabras_clave": [
+        "extracción",
+        "listado",
+        "extracción aparatos",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026420229",
+      "resumen_original": "[ATLAS]Modificación de datos",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026422254",
+      "resumen_original": "[ATLAS] Anular lectura y pasar a cargada",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026426072",
+      "resumen_original": "Recuento cuentas contrato informadas en el nuevo RD",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026429791",
+      "resumen_original": "[SFO P] - Solapes de UFD, borrado de anuladoras y reprocese de curvas",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.8,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026444865",
+      "resumen_original": "[E1]Posibilidad de facturar en dólares",
+      "tipo_ticket_original": "CONSULTA",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "error al calcular",
+        "oc",
+        "ol",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026521742",
+      "resumen_original": "[ATC 22/092025][ATLAS]- NO PERMITE CALCULAR",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.85,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "no permite calcular",
+        "orden de cálculo",
+        "oc",
+        "clasificación automática"
+      ]
+    },
+    {
+      "ticket_id": "WO0000026518317",
+      "resumen_original": "[ATLAS] Resolver huecos ATR",
+      "tipo_ticket_original": "PETICION",
+      "categoria_predicha": "errores_calculo_facturacion",
+      "confianza": 0.75,
+      "nombre_categoria": "Errores de cálculo/facturación",
+      "descripcion_categoria": "Mensajes de error durante el cálculo de órdenes de cálculo o facturas",
+      "criticidad": "Alta",
+      "palabras_clave": [
+        "ol",
+        "clasificación automática"
+      ]
+    }
+  ]
+}
